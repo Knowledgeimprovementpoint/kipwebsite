@@ -1,0 +1,47 @@
+{
+  "appName": "Knowledge Improvement Point (KIP)",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "courses": "Courses",
+    "resources": "Resources",
+    "contact": "Contact"
+  },
+  "common": {
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "dashboard": "Dashboard"
+  },
+  "home": {
+    "headline": "Improve knowledge. Build capability. Grow together.",
+    "subhead": "KIP helps teams learn faster through focused courses and curated resources.",
+    "featuredCourses": "Featured courses",
+    "featuredResources": "Popular resources"
+  },
+  "courses": {
+    "title": "Courses",
+    "subtitle": "Browse practical learning paths built for workplace impact.",
+    "viewDetails": "View details",
+    "enroll": "Enroll"
+  },
+  "resources": {
+    "title": "Resources",
+    "subtitle": "Quick links to guides, documentation, and learning references.",
+    "name": "Name",
+    "description": "Description",
+    "link": "Link"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "signIn": "Sign in",
+    "signUp": "Create account"
+  }
+}
+

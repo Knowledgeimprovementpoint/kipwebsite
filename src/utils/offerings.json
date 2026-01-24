@@ -1,0 +1,67 @@
+{
+  "classes": [
+    {
+      "slug": "class-12-pass",
+      "label": "Class 12 pass"
+    },
+    {
+      "slug": "class-12",
+      "label": "Class 12"
+    },
+    {
+      "slug": "class-11",
+      "label": "Class 11"
+    },
+    {
+      "slug": "class-10",
+      "label": "Class 10"
+    },
+    {
+      "slug": "class-9",
+      "label": "Class 9"
+    },
+    {
+      "slug": "class-8",
+      "label": "Class 8"
+    },
+    {
+      "slug": "class-7",
+      "label": "Class 7"
+    },
+    {
+      "slug": "class-6",
+      "label": "Class 6"
+    },
+    {
+      "slug": "class-1-5",
+      "label": "Class 1–5"
+    }
+  ],
+  "materials": [
+    {
+      "slug": "revision-notes",
+      "title": "Revision notes",
+      "subtitle": "Crisp chapter-wise key points",
+      "image": "/offerings/revision-notes.svg"
+    },
+    {
+      "slug": "important-question-papers",
+      "title": "Important question papers",
+      "subtitle": "High-yield practice questions",
+      "image": "/offerings/important-questions.svg"
+    },
+    {
+      "slug": "previous-year-question-papers",
+      "title": "Previous year question papers",
+      "subtitle": "Real exam patterns & marking",
+      "image": "/offerings/previous-year.svg"
+    },
+    {
+      "slug": "sample-question-papers",
+      "title": "Sample question papers",
+      "subtitle": "Timed mocks for confidence",
+      "image": "/offerings/sample-papers.svg"
+    }
+  ]
+}
+
