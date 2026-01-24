@@ -21,8 +21,8 @@ export const courses: Course[] = [
       "Cleaning data & formatting",
       "Formulas (SUMIF, XLOOKUP basics)",
       "Pivot tables and charts",
-      "Templates for weekly reporting"
-    ]
+      "Templates for weekly reporting",
+    ],
   },
   {
     slug: "communication-for-impact",
@@ -32,7 +32,12 @@ export const courses: Course[] = [
     summary: "Write, speak, and present with clarity and confidence.",
     description:
       "Improve stakeholder communication with structured messaging, crisp writing, and meeting practices.",
-    curriculum: ["Clarity frameworks", "Writing effective updates", "Meeting hygiene", "Presentation structure"]
+    curriculum: [
+      "Clarity frameworks",
+      "Writing effective updates",
+      "Meeting hygiene",
+      "Presentation structure",
+    ],
   },
   {
     slug: "secure-by-default",
@@ -42,11 +47,45 @@ export const courses: Course[] = [
     summary: "Security basics that reduce risk in daily work.",
     description:
       "Understand common security risks, safe data handling, phishing detection, and access management.",
-    curriculum: ["Threat basics", "Passwords & MFA", "Phishing patterns", "Data handling guidelines"]
-  }
+    curriculum: [
+      "Threat basics",
+      "Passwords & MFA",
+      "Phishing patterns",
+      "Data handling guidelines",
+    ],
+  },
+  {
+    slug: "communication-for-impact",
+    title: "Communication for Impact",
+    level: "Intermediate",
+    duration: "2.5 hours",
+    summary: "Write, speak, and present with clarity and confidence.",
+    description:
+      "Improve stakeholder communication with structured messaging, crisp writing, and meeting practices.",
+    curriculum: [
+      "Clarity frameworks",
+      "Writing effective updates",
+      "Meeting hygiene",
+      "Presentation structure",
+    ],
+  },
+  {
+    slug: "secure-by-default",
+    title: "Secure by Default",
+    level: "Beginner",
+    duration: "2 hours",
+    summary: "Security basics that reduce risk in daily work.",
+    description:
+      "Understand common security risks, safe data handling, phishing detection, and access management.",
+    curriculum: [
+      "Threat basics",
+      "Passwords & MFA",
+      "Phishing patterns",
+      "Data handling guidelines",
+    ],
+  },
 ];
 
 export function getCourseBySlug(slug: string) {
   return courses.find((c) => c.slug === slug) ?? null;
 }
-

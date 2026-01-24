@@ -26,29 +26,29 @@ export function ExploreOfferings() {
   );
 
   // Initialize from URL on first render when router is ready.
-  useEffect(() => {
-    if (!router.isReady) return;
-    const fromQuery = router.query[CLASS_QUERY_KEY];
-    if (typeof fromQuery === "string") {
-      const match = classes.find((c) => c.slug === fromQuery);
-      if (match) {
-        setSelectedClassSlug(match.slug);
-        return;
-      }
-    }
-    // Ensure default is reflected in URL.
-    const fallback = getDefaultClass().slug;
-    setSelectedClassSlug(fallback);
-    void router.replace(
-      {
-        pathname: router.pathname,
-        query: { ...router.query, [CLASS_QUERY_KEY]: fallback },
-      },
-      undefined,
-      { shallow: true },
-    );
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [router.isReady]);
+  // useEffect(() => {
+  //   if (!router.isReady) return;
+  //   const fromQuery = router.query[CLASS_QUERY_KEY];
+  //   if (typeof fromQuery === "string") {
+  //     const match = classes.find((c) => c.slug === fromQuery);
+  //     if (match) {
+  //       setSelectedClassSlug(match.slug);
+  //       return;
+  //     }
+  //   }
+  //   // Ensure default is reflected in URL.
+  //   const fallback = getDefaultClass().slug;
+  //   setSelectedClassSlug(fallback);
+  //   void router.replace(
+  //     {
+  //       pathname: router.pathname,
+  //       query: { ...router.query, [CLASS_QUERY_KEY]: fallback },
+  //     },
+  //     undefined,
+  //     { shallow: true },
+  //   );
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [router.isReady]);
 
   const selectedClass = useMemo(
     () =>
