@@ -130,6 +130,7 @@ export default function HomePage() {
       </motion.section>
 
       <ExploreOfferings />
+      
     </>
   );
 }
