@@ -128,7 +128,6 @@ export default function HomePage() {
           ))}
         </div>
       </motion.section>
-
       <ExploreOfferings />
       
     </>
